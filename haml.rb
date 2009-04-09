@@ -1,4 +1,4 @@
-gem 'echoe'
+#gem 'echoe'
 gem 'haml', :version => '>=2.1'
 gem 'chriseppstein-compass', :lib => 'compass', :source => 'http://gems.github.com'
 
