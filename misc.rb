@@ -57,7 +57,7 @@ HAML
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
   %body{:class => body_class}
     #header
-      = render :partial => 'layouts/flashes
+      = render :partial => 'layouts/flashes'
     .container= yield
 HAML
 else
