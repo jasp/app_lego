@@ -25,10 +25,10 @@ Zip::ZipFile.open('temp.zip') { |zip_file|
 run "rm temp.zip"
 
 inside('public/javascripts/jquery-ui-1.7') do
-  run "cp ui themes .. -r"
+  run "cp -r ui themes .."
 end
 
-run "rm public/javascripts/jquery-ui-1.7 -r"
+run "rm -r public/javascripts/jquery-ui-1.7"
 
 file "public/javascripts/application.js", <<-JS
 $(function() {
